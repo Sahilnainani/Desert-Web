@@ -13,12 +13,6 @@ const Navbar = () => {
                     <li><a href="">CONTACT US</a></li>
                 </ul>
             </nav>
-            <img
-                src={require('../css/images/menu.png')}
-                alt="menu-icon"
-                class="menu-icon"
-                onclick="togglemenu()"
-            />
         </div>
     )
 }
